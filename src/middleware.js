@@ -46,7 +46,7 @@ export async function middleware(request) {
 
   // Apply CORS Headers
   const response = NextResponse.next();
-  const allowedOrigin = "https://67457fb8bd56b600084c981d--dainty-gnome-154857.netlify.app";
+  const allowedOrigin = "https://tempvercel-flbjujmoy-sangharhs-motghares-projects.vercel.app";
 
   response.headers.set("Access-Control-Allow-Origin", allowedOrigin);
   response.headers.set("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
