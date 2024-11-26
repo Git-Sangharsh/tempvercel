@@ -3,8 +3,10 @@
 const nextConfig = {
   env: {
     // Change below URL with your current domain
-    API_PROD_URL: "https://tempvercel-delta.vercel.app/api",
-    storageURL: "https://tempvercel-delta.vercel.app/",
+    API_PROD_URL:
+      "https://tempvercel-1i2szye06-sangharhs-motghares-projects.vercel.app/api",
+    storageURL:
+      "https://tempvercel-1i2szye06-sangharhs-motghares-projects.vercel.app/",
   },
 
   images: {
