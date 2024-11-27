@@ -59,7 +59,7 @@
       "offer_banner": {
         "banner_1": {
           "status": true,
-          "image_url": "/assets/images/theme/fashion_one/fashion_one_81.png",
+          "image_url": "/assets/images/theme/fashion_one/fashion_one_811.png",
           "redirect_link": {
             "link": "fashion",
             "link_type": "collection"
@@ -67,7 +67,7 @@
         },
         "banner_2": {
           "status": true,
-          "image_url": "/assets/images/theme/fashion_one/fashion_one_71.png",
+          "image_url": "/assets/images/theme/fashion_one/fashion_one_711.png",
           "redirect_link": {
             "link": "fashion",
             "link_type": "collection"
