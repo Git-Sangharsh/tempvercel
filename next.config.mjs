@@ -8,12 +8,15 @@ const nextConfig = {
   },
 
   images: {
+    // Adding domains for external images
+    domains: ["tempvercel-delta.vercel.app"],
+
+    // Adding remote patterns for image optimization
     remotePatterns: [
       {
         protocol: "https",
         hostname: "tempvercel-delta.vercel.app",
       },
-      ,
       {
         protocol: "http",
         hostname: "127.0.0.1",
