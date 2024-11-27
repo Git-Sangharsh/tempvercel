@@ -4,7 +4,7 @@ const nextConfig = {
   env: {
     // Change below URL with your current domain
     API_PROD_URL: "https://tempvercel-delta.vercel.app/api",
-    storageURL: "https://tempvercel-delta.vercel.app/",
+    storageURL: "https://tempvercel-delta.vercel.app/api",
   },
 
   images: {
