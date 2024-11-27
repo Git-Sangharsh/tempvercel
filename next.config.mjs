@@ -4,11 +4,16 @@ const nextConfig = {
   env: {
     // Change below URL with your current domain
     API_PROD_URL: "https://tempvercel-delta.vercel.app/api",
-    storageURL: "https://tempvercel-delta.vercel.app/api",
+    storageURL: "https://tempvercel-delta.vercel.app/",
   },
 
   images: {
     remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "tempvercel-delta.vercel.app",
+      },
+      ,
       {
         protocol: "http",
         hostname: "127.0.0.1",
