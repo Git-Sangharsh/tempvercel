@@ -46,7 +46,7 @@ export async function middleware(request) {
 
   // Apply CORS Headers
   const response = NextResponse.next();
-  const allowedOrigin = "https://tempvercel-delta.vercel.app";
+  const allowedOrigin = ["*", "https://tempvercel-delta.vercel.app/*"];
 
   response.headers.set("Access-Control-Allow-Origin", allowedOrigin);
   response.headers.set("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
