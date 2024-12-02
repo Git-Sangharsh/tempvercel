@@ -14,7 +14,6 @@ const RegisterForm = () => {
   const { mutate, isLoading } = useCreate(RegisterAPI, false, false, "Register Successfully", false, false, false, false, setShowBoxMessage);
   const { t } = useTranslation("common");
   const [checkboxChecked, setCheckboxChecked] = useState(false);
-
   return (
     <Formik
       initialValues={{

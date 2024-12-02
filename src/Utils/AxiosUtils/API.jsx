@@ -129,11 +129,9 @@ export const RePaymentAPI = "/rePayment";
 export const ClearCart = "clear/cart";
 
 // Subscribe Api
-
 export const SubscribeAPI = "/subscribe";
 
 // invoice
-
 export const OrderInvoiceAPI = "/order/invoice";
 
 export const SyncCart = "/sync/cart";

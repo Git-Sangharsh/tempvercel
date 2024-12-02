@@ -12,7 +12,6 @@ const RegisterContainer = () => {
   const { t } = useTranslation("common");
   return (
     <>
-    
       <Breadcrumbs title={"Home"} subTitle={"CreateAccount"} />
       <section className="register-page section-b-space">
         <Container>
