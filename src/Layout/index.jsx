@@ -13,13 +13,18 @@ import ProductIdsProvider from "@/Context/ProductIdsContext/ProductIdsProvider";
 import SettingProvider from "@/Context/SettingContext/SettingProvider";
 import ThemeOptionProvider from "@/Context/ThemeOptionsContext/ThemeOptionProvider";
 import WishlistProvider from "@/Context/WishlistContext/WishlistProvider";
-import { Hydrate, QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import {
+  Hydrate,
+  QueryClient,
+  QueryClientProvider,
+} from "@tanstack/react-query";
 import { useState } from "react";
 import { ToastContainer } from "react-toastify";
 import SubLayout from "./SubLayout";
 
 const MainLayout = ({ children }) => {
   const [queryClient] = useState(() => new QueryClient());
+
   return (
     <>
       <QueryClientProvider client={queryClient}>
